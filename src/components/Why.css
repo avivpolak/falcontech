@@ -1,0 +1,20 @@
+.why {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+
+.whyHeader {
+    grid-area: 1 / 1 / 2 / 7;
+    text-align: center;
+}
+.whyContent {
+    display: block;
+    align-items: center;
+    align-content:space-around;
+    grid-area: 2 / 1 / 6 / 7;
+}
+
