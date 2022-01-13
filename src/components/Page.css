@@ -1,0 +1,15 @@
+#Page {
+    width: 80vh;
+    height: 100vh;
+}
+
+.PageHeader {
+    grid-area: 1 / 1 / 2 / 7;
+    text-align: center;
+}
+.PageContent {
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+}
