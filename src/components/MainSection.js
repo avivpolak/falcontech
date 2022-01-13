@@ -1,5 +1,6 @@
 import React from "react";
 import video from "../media/video.webm";
+import Navbar from "./Navbar";
 export default function MainSection() {
     return (
         <div>
@@ -7,6 +8,7 @@ export default function MainSection() {
                 <div className="video-container">
                     <video src={video} autoplay muted loop></video>
                 </div>
+                {/* <Navbar /> */}
                 <div className="navbar">
                     <a href="#home" className="navbarItem">
                         home
